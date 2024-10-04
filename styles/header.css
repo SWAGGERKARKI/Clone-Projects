@@ -1,0 +1,71 @@
+.header {
+  border: 1px solid red;
+  background-color: rgb(37, 34, 34);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.left-section {
+  border: 1px solid blue;
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+}
+
+.facebook-logo-button {
+  background-color: transparent;
+}
+
+.facebook-logo {
+  height: 44px;
+  margin: 0 8px 0 20px;
+  cursor: pointer;
+}
+
+.search-icon-button {
+  height: 44px;
+  width: 44px;
+  background-color: rgb(85, 85, 85);
+  border: none;
+  border-radius: 23px;
+}
+
+.search-icon {
+  height: 26px;
+  margin-top: 2px;
+}
+
+.middle-section {
+  flex: 1;
+}
+
+.right-section {
+  border: 1px solid peachpuff;
+  width: 180px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 16px;
+}
+
+.facebook-app-button,
+.facebook-notification-button,
+.facebook-messenger-button {
+  background-color: rgb(52, 52, 52);
+  border: none;
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+}
+
+.facebook-app-logo,
+.facebook-messenger-logo,
+.facebook-notification-logo {
+  height: 20px;
+}

@@ -1,0 +1,133 @@
+.create-story-container {
+  border: 1px solid red;
+  margin-top: 18px;
+  width: 500px;
+  display: inline-flex;
+  text-align: center;
+}
+
+.create-story,
+.story {
+  margin-right: 4px;
+  border: 2px solid blue;
+  background-color: rgb(37, 34, 34);
+  border-radius: 16px;
+  width: 120px;
+  height: 220px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.story-two {
+  margin-right: 4px;
+  border: 2px solid blue;
+  background-color: rgb(37, 34, 34);
+  border-radius: 16px;
+  width: 120px;
+  height: 220px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.story-profile-picture {
+  height: 160px;
+  width: 120px;
+  object-fit: cover;
+  border-top-right-radius: 16px;
+  border-top-left-radius: 16px;
+}
+
+.plus-button {
+  font-size: 28px;
+  padding: 1px 8px;
+  border-radius: 20px;
+  position: absolute;
+  top: 140px;
+  border: 4px solid rgb(37, 34, 34);
+  background-color: rgb(53, 53, 192);
+  color: rgb(255, 255, 255);
+}
+
+.story-text {
+  border: 2px solid red;
+  color: rgb(255, 255, 255);
+  font-size: 13px;
+  font-weight: bold;
+  height: 40px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.story {
+  background-image: url('../story-images/story-image-1.jpeg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.story-profile {
+  margin-top: 10px;
+  border: 1px solid red;
+  height: 200px;
+  width: 90px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.story-image-two {
+  width: 100px;
+  height: 180px;
+  object-fit: cover;
+}
+
+.story-profile-image {
+  height: 30px;
+  width: 30px;
+  object-fit: cover;
+  border-radius: 20px;
+  border: 4px solid rgb(53, 53, 192);
+}
+
+.story-profile-image-two {
+  height: 30px;
+  width: 30px;
+  object-fit: cover;
+  border-radius: 20px;
+  border: 4px solid rgb(53, 53, 192);
+  z-index: 100;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.profile-name {
+  color: rgb(255, 255, 255);
+  font-size: 12px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.profile-name-two {
+  color: rgb(255, 255, 255);
+  font-size: 12px;
+  font-weight: bold;
+  text-align: left;
+  z-index: 100;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+
+.story-image-three {
+  height: 100px;
+  width: 120px;
+  object-fit: cover;
+  /* margin-top: 46px; */
+
+}

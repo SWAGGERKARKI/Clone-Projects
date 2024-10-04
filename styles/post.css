@@ -1,0 +1,93 @@
+.facebook-post {
+  margin-top: 20px;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(37, 34, 34);
+  border-radius: 8px;
+}
+
+.post-header {
+  min-width: 500px;
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.post-header-left {
+  display: flex;
+  margin-left: 10px;
+}
+
+.post-page-image {
+  height: 32px;
+  border-radius: 6px;
+}
+
+.page-info {
+  margin-left: 6px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.page-title {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.page-post-author {
+  font-size: 10px;
+  color: rgb(196, 196, 196);
+  margin-top: 4px;
+}
+
+.post-header-right {
+  font-size: 14px;
+  margin-right: 16px;
+}
+
+.page-ellipsis {
+  margin-right: 12px;
+}
+
+.post-image {
+  height: 440px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.post-container {
+  border: 1px solid rgb(76, 76, 76);
+  display: flex;
+  flex-direction: column;
+  width: 480px;
+  border-radius: 16px;
+}
+
+.post-body {
+  display: flex;
+  margin: 12px 16px 0 16px;
+}
+
+.post-page-info {
+  margin-left: 6px;
+  text-align: left;
+}
+
+.page-name {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.post-stats {
+  font-size: 12px;
+  margin-top: 4px;
+}
+
+.post-caption {
+  font-size: 14px;
+  text-align: left;
+  margin: 12px 16px 20px 16px;
+}
